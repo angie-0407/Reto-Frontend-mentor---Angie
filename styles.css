@@ -44,3 +44,21 @@ button{
 button:hover {
     color: purple;
 }
+
+.container{
+    background-color: var(--White);
+    max-width: 800px;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.faq-headline {
+    display: flex;
+    gap: 2rem;
+}
+
+.faq-headline h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
