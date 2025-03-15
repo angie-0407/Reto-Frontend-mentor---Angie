@@ -62,3 +62,32 @@ button:hover {
     font-size: 4rem;
     font-weight: 700;
 }
+
+.accordion-container .accordion-item:not(:last-child){
+    border-bottom: 2px solid var(--light-pink);
+}
+.accordion-item .icons img {
+    min-width: 30px;
+}
+
+.accordion-item .icons .minus-icon {
+    display: none;
+}
+
+.accordion-description {
+    background-color: var(--white);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 200ms ease;
+}
+
+.accordion-description p {
+    color: var(--grayish-purple);
+    padding: 1.5rem 0;
+}
+
+@media (max-width: 540px) {
+    body{
+        background-image: url(assets/images/background-pattern-mobile.svg);
+    }
+}
