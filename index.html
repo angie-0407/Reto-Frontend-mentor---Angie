@@ -1,48 +1,44 @@
+index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ accordion</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+    integrity="sha512-Avb2QiUEDEVB4bZJYdft2mNJVShBftLdPG8FJ0V7irTLQ8U0qcPxh4P1q7G5tGm0rU+1SPhVotteLpBERwTKw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    
+    <script src="./script.js" defer=""></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>FAQ Accordion</title>
 </head>
 <body>
+  <div class="container">
+    <div class="fab-headline">
+      <img src="assets/images/icon-star.svg" alt="">
+      <h1>FAQs</h1>
+    </div>
+    <!-- primero -->
+    <div class="accordion-container">
+      <div class="accordion-item">
+        <button class="accordion-btn" class="acordion-btn">
+          What is Frontend Mentor, and how will it help me?
 
-  FAQs
-
-  What is Frontend Mentor, and how will it help me?
-
-  Frontend Mentor offers realistic coding challenges to help developers improve their 
-  frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
-  all levels and ideal for portfolio building.
-
-  Is Frontend Mentor free?
-
-  Yes, Frontend Mentor offers both free and premium coding challenges, with the free 
-  option providing access to a range of projects suitable for all skill levels.
-
-  Can I use Frontend Mentor projects in my portfolio?
-
-  Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
-  way to showcase your skills to potential employers!
-
-  How can I get help if I'm stuck on a Frontend Mentor challenge?
-  
-  The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-  channel where you can ask questions and seek support from other community members.
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+          <div class="icons">
+            <img class="plus-icon btn-icon" src="assets/images/icon-plus.svg" alt="">
+            <img class="minus-icon btn-icon" src="assets/images/icon-minus.svg" alt="">
+          </div>
+        </button>
+        <div class="accordion-description"> <p>  Frontend Mentor offers realistic coding challenges to help developers improve their 
+            frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for 
+            all levels and ideal for portfolio building.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
